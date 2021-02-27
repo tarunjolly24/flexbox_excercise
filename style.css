@@ -5,6 +5,10 @@
     font-size: 20px;
 
 }
+body{
+    background-color: #f4f4f4;
+
+}
 .bg-primary{
     background-color: #4c98dc;
 
@@ -27,9 +31,11 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 400px;
+    height: 400px;
     width: 100%;
+    /* display: flex; */
 }
+
 
 .header-content{
     color: #fff;
@@ -113,6 +119,7 @@
 .third-wrapper p{
     padding: 1rem;
     color: gray;
+    /* background-color: #f4f4f4; */
 }
 .cards-wrapper{
     font-size: 0.8rem;
@@ -121,6 +128,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
+    /* background-color: #f4f4f4; */
     /* flex-wrap: wrap; */
     /* max-width: 1200px; */
     /* flex: 33.33%; */
@@ -139,6 +147,30 @@
 padding-bottom:20px ;
 }
 
+.footer{
+    padding: 10px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer-icon{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer-icon i{
+    padding: 5px 10px;
+}
+.footer-content{
+    text-align: center;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.footer-content p{
+    font-size: 0.6rem;
+}
+
 @media screen and (max-width:1350px){
 .first-wrapper{
     max-width: 1400px;
@@ -150,6 +182,7 @@ padding-bottom:20px ;
     max-width: 1400px;
 }
 .cards-wrapper{
+    max-width: 1400px;
     flex-wrap: wrap;
 }
 }
@@ -157,6 +190,11 @@ padding-bottom:20px ;
 @media screen and (max-width:425px){
 .first-wrapper{
     flex-wrap: wrap;
+}
+.img{
+    width: 250px;
+    margin: 0 auto;
+    text-align: center;
 }
 .second-wrapper{
     flex-wrap: wrap;
